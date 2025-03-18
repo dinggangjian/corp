@@ -1,5 +1,3 @@
-import type { AppProps } from 'next/app';
-import Image from 'next/image';
 import Content from "@/components/Content"
 import Home from "@/public/home.jpg"
 const Page = () =>  {

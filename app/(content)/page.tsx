@@ -2,7 +2,7 @@ import type { AppProps } from 'next/app';
 import Image from 'next/image';
 import Content from "@/components/Content"
 import Home from "@/public/home.jpg"
-export default function Page(props: AppProps) {
+const Page = () =>  {
   return (
     <div className="h-screen">
       <div className='h-full'>
@@ -11,3 +11,6 @@ export default function Page(props: AppProps) {
     </div>
   );
 }
+
+
+export default Page;

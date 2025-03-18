@@ -4,7 +4,7 @@ const Page = () =>  {
   return (
     <div className="h-screen">
       <div className='h-full'>
-        <Content image={Home} text='Welcome to my home!!!!'/>
+        <Content image={Home} text='啦啦啦啦!!!!'/>
       </div>
     </div>
   );
